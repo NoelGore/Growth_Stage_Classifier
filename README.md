@@ -36,6 +36,6 @@ python train.py
 
 
 ## Trained Model
-[Trained Model](https://drive.google.com/open?id=1p2uP6Fic2GLnswXfaMa9xJZZKYb_eiHX):
+[Trained Model](https://drive.google.com/open?id=1p2uP6Fic2GLnswXfaMa9xJZZKYb_eiHX)
 
 ________________

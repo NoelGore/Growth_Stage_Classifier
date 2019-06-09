@@ -1,2 +1,49 @@
-# Growth_Stage_Classifier
-Real-time computer vision classification to showcase the growth stage of a farming crop
+# Crop growth stage modeling and classification
+
+
+<p align="center">
+ <img src="https://github.com/a-jahani/CropGrowthStage/blob/master/demo.gif" width="300" height="400">
+</p>
+
+_______________
+ Finalist in [#ATBDATHATON](https://www.eventbrite.ca/e/atb-datathon-solve-for-alberta-solve-for-the-world-tickets-54668314400) held on 30 March,2019 in Edmonton, Alberta, CANADA.
+
+We created a real-time computer vision classification model to estimate plant growth stages and did a live demo on stage. 
+
+Full Demo: https://www.youtube.com/watch?v=G6xBIVzubFk
+
+Presentation: [Crop growth stage modeling and classification](https://drive.google.com/open?id=1P9jtOcwQjw0ygOf0gAYlQiGhG2rSv2cO)
+
+Blog about the competition:
+https://www.linkedin.com/pulse/computer-vision-technology-project-recognized-finalist-kurrant/
+__________________
+## Dataset
+1. Download the [Aberystwyth Leaf Evaluation Dataset](https://zenodo.org/record/168158#.XKJz2kCYU_U) 
+```
+wget https://zenodo.org/record/168158/files/images_and_annotations.zip?download=1
+unzip images_and_annotations.zip
+```
+**Note:** Be careful about the size of the dataset(61GB before extraction).
+
+2. Preprocess the data and split it into different growth stages:
+```
+python preProcess.py
+```
+**Note:** You will need to edit the pathes. 
+Manually look at the data delete the outliers especially in the '4' folder.
+
+## Training 
+We used tensorflow 1.12. To train run the following code:
+```
+python train.py
+```
+**Note:** You will to edit the path to dataset and you might want to increase the batch size.
+
+## Inference
+You can download our trained model from [here](https://drive.google.com/open?id=1p2uP6Fic2GLnswXfaMa9xJZZKYb_eiHX):
+
+to run the inference code using webcam run the following:
+```
+Will be updated
+```
+________________

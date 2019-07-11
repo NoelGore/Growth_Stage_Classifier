@@ -5,7 +5,7 @@
 </p>
 
 _______________
-This project was completed for the [ATB Datathon](https://www.meetup.com/ATB-Transformation/events/258732806/) (Alberta's largest Datathon), with a team of 6. The goal of the competition was to solve problems impacting the lives of everyday Albertans, with potential for global impact. We created a computer vision classification model, using a deep neural network, to predict the growth stage for a given plant. This would help with herbicide application plannint, insect treatment and fungicide decisions, while allowing large scale farms to accelerate their decision making process. The aim was to then integrate this with a crop phenology model to validate the model's predictions.
+This project was completed for the [ATB Datathon](https://www.meetup.com/ATB-Transformation/events/258732806/) (Alberta's largest Datathon), with a team of 6. The goal of the competition was to solve problems impacting the lives of everyday Albertans, with potential for global impact. We created a computer vision classification model, using a deep neural network, to predict the growth stage for a given plant. This would help with herbicide application, insect treatment and fungicide decisions, while allowing large scale farms to accelerate their decision making process. The aim was to then integrate this with a crop phenology model to validate the model's predictions.
 
 
 Full Demo: https://www.youtube.com/watch?v=G6xBIVzubFk
